@@ -1,0 +1,57 @@
+@import 'reset.css';
+
+body#index .gallery .image {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+body#index .gallery .image div {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+body#index .gallery .large,
+body#index .gallery .small,
+body#index .gallery .half {
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+}
+
+body#index .gallery .large {
+  width: 65%;
+  padding-top: 50%;
+}
+
+body#index .gallery .small {
+  width: 35%;
+  padding-top: 50%;
+  position: relative;
+}
+
+body#index .gallery .half {
+  top: 0;
+  width: 100%;
+  height: 50%;
+  position: absolute;
+}
+
+body#index .gallery a:last-child .half {
+  top: 50%;
+}
+
+body#index .gallery img {
+  height:100%;
+}
+
+body#index .gallery .image div:hover {
+  color: #ffffff;
+  opacity: 0.3;
+}

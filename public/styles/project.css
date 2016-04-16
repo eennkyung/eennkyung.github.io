@@ -1,0 +1,44 @@
+@import 'reset.css';
+
+
+body#project {
+  padding-top: 157px;
+}
+
+body#project .description .summary {
+  width: 50%;
+  float: left;
+}
+
+body#project .description .text {
+  width: 50%;
+  float: right;
+}
+
+body#project .description ul li {
+  color: #A6A8AB;
+  padding-bottom: 15px;
+}
+
+body#project .description ul li strong {
+  color: #6B6C6E;
+}
+
+body#project .description dl dt {
+  color: #636363;
+  padding-bottom: 15px;
+}
+
+body#project .description dl dd {
+  color: #636363;
+  line-height: 1.5;
+}
+
+body#project .gallery {
+  margin-top: 50px;
+}
+
+body#project .gallery img {
+  width: 100%;
+  margin-bottom: 10px;
+}
