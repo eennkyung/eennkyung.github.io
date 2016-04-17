@@ -1,0 +1,35 @@
+@import 'reset.css';
+
+
+body#about {
+    padding-top: 60px;
+}
+
+
+body#about .description .text-about {
+    padding-top: 157px;
+    width: 50%;
+    float: right;
+    font-weight: 200;
+}
+
+body#about .description dl dt {
+    color: #636363;
+    padding-bottom: 15px;
+}
+
+body#about .description dl dd {
+    color: #636363;
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+body#about .background {
+    width: 100%;
+    margin-bottom: 14px;
+}
+
+body#about .background img {
+    background-size: cover;
+    position: center;
+}
