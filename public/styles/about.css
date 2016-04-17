@@ -2,7 +2,7 @@
 
 
 body#about {
-    padding-top: 60px;
+    padding-top: 0px;
 }
 
 
@@ -26,10 +26,10 @@ body#about .description dl dd {
 
 body#about .background {
     width: 100%;
-    margin-bottom: 14px;
 }
 
 body#about .background img {
     background-size: cover;
-    position: center;
+    position: relative;
+    width: 100%;
 }
