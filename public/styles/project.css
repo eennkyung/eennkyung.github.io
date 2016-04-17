@@ -8,15 +8,18 @@ body#project {
 body#project .description .summary {
   width: 50%;
   float: left;
+  font-weight: 200;
+  font-size: 12px;
 }
 
 body#project .description .text {
   width: 50%;
   float: right;
+  font-weight: 200;
 }
 
 body#project .description ul li {
-  color: #A6A8AB;
+  color: #B4B4B4;
   padding-bottom: 15px;
 }
 
@@ -31,7 +34,8 @@ body#project .description dl dt {
 
 body#project .description dl dd {
   color: #636363;
-  line-height: 1.5;
+  line-height: 1.8;
+  font-size: 14px;
 }
 
 body#project .gallery {
@@ -40,5 +44,11 @@ body#project .gallery {
 
 body#project .gallery img {
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 60px;
+}
+
+body#project .gallery iframe {
+  display: block;
+  margin: 0 auto;
+  padding: 200px;
 }

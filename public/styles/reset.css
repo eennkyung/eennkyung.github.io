@@ -61,12 +61,12 @@ a {
 
 .container {
   margin: 0 auto;
-  max-width: 1020px;
+  max-width: 1158px;
 }
 
 .global-navbar {
   top: 0;
-  padding-top: 70px;
+  padding-top: 50px;
   width: 100%;
   position: fixed;
   background-color: transparent;
@@ -86,10 +86,14 @@ a {
   font-weight: 200;
   font-size:14px;
   color: #636363;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   float: right;
   text-transform: uppercase;
   width: 50%;
+}
+
+.global-navbar .navbar-right a {
+  padding-right: 33px;
 }
 
 .global-navbar .navbar-right a:hover {
@@ -98,8 +102,8 @@ a {
 
 .global-footer {
   padding-top: 75px;
-  padding-bottom: 75px;
-  background-color: #636363;
+  padding-bottom: 120px;
+  background-color: #DDD4C8;
   text-align: center;
   margin-top: 75px;
 }
@@ -107,4 +111,17 @@ a {
 .global-footer i {
   color: #ffffff;
   font-size: 40px;
+  padding: 20px;
 }
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+.animated {
+  -webkit-animation-duration: 1.5s;
+  animation-duration-fill-mode: both;
+  animation-fill-mode: both;
+}
+
