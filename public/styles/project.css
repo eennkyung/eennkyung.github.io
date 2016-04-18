@@ -40,6 +40,7 @@ body#project .description dl dd {
 
 body#project .gallery {
   margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 body#project .gallery img {
