@@ -27,7 +27,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   padding-top: 50px;
-  line-height: 1;
+  line-height: 0;
   font-family: 'Open Sans', sans-serif;
 }
 

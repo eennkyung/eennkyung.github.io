@@ -1,11 +1,57 @@
 @import 'reset.css';
 
+/*
+.container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+*/
+
+
+.medium, .small, .large {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .medium {
+    width: 60%;
+    -webkit-order: 2;
+    order: 2;
+  }
+
+  .small {
+    width: 40%;
+    -webkit-order: 1;
+    order: 1;
+  }
+
+  .large {
+    width: 100%;
+    -webkit-order: 3;
+    order: 3;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .small {
+    width: 20%;
+  }
+
+  .large {
+    width: 20%;
+  }
+}
+
 body#index .gallery .image {
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   position: absolute;
+  padding: 30px;
   box-sizing: border-box;
 }
 
@@ -58,3 +104,6 @@ body#index .gallery img {
 body#index .gallery {
   margin-bottom: 100px;
 }
+
+
+
