@@ -5,6 +5,9 @@ body#project {
   padding-top: 157px;
 }
 
+body#project .description {
+  padding-top: 10px;
+}
 body#project .description .summary {
   width: 50%;
   float: left;
