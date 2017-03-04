@@ -6,27 +6,18 @@ body#about {
 
 }
 
+body#about .background {
+    background: src(public.images.eunkyung.png) center center;
+    width: 100%;
+}
 
-body#about .description .text-about {
+.about {
     padding-top: 157px;
     width: 50%;
-    float: right;
+    float: left;
     font-weight: 200;
-}
-
-body#about .description dl dt {
-    color: #636363;
-    padding-bottom: 15px;
-}
-
-body#about .description dl dd {
     color: #636363;
     line-height: 1.8;
     font-size: 14px;
 }
 
-body#about .background {
-    width: 100%;
-
-
-}
