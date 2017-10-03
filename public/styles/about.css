@@ -1,23 +1,75 @@
 @import 'reset.css';
 
-
 body#about {
-    padding-top: 0px;
-
-}
-
-body#about .background {
-    background: src(public.images.eunkyung.png) center center;
-    width: 100%;
-}
-
-.about {
     padding-top: 157px;
+}
+
+body#about .calearfix {
+    overflow: auto;
+    zoom: 1;
+}
+
+body#about .container {
+    margin: 0 auto;
+    max-width: 1158px;
+    margin-bottom: 100px;
+}
+
+body#about .description {
+    padding-top: 10px;
+    display: block;
+}
+
+body#about .description .summary {
     width: 50%;
-    float: left;
     font-weight: 200;
+    font-size: 12px;
+}
+
+body#about .description .text {
+    width: 50%;
+    font-weight: 200;
+    margin-bottom: 100px;
+}
+
+body#about .description dl {
+    padding-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+body#about .description dl dt {
+    color: #636363;
+    padding-bottom: 30px;
+    font-weight: 500;
+}
+
+body#about .description dl dd {
     color: #636363;
     line-height: 1.8;
     font-size: 14px;
 }
 
+body#about .description dl strong {
+    color: #636363;
+    line-height: 1.8;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+body#about .gallery {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+body#about .global-footer {
+    padding-top: 75px;
+    padding-bottom: 120px;
+    background-color: #DDD4C8;
+    text-align: center;
+}
+
+body#about .global-footer i {
+    color: #ffffff;
+    font-size: 40px;
+    padding: 20px;
+}
