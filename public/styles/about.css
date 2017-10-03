@@ -20,21 +20,21 @@ body#about .description {
     display: block;
 }
 
-body#about .description .summary {
-    width: 50%;
-    font-weight: 200;
-    font-size: 12px;
-}
+/*body#about .description .summary {*/
+    /*width: 50%;*/
+    /*font-weight: 200;*/
+    /*font-size: 12px;*/
+/*}*/
 
 body#about .description .text {
-    width: 50%;
+    width: 60%;
     font-weight: 200;
     margin-bottom: 100px;
 }
 
 body#about .description dl {
-    padding-bottom: 50px;
-    letter-spacing: 1px;
+    padding-bottom: 70px;
+    letter-spacing: 0.5px;
 }
 
 body#about .description dl dt {
@@ -49,12 +49,15 @@ body#about .description dl dd {
     font-size: 14px;
 }
 
-body#about .description dl strong {
-    color: #636363;
-    line-height: 1.8;
-    font-size: 14px;
-    font-weight: 300;
+body#about .description .text table tr td {
+    font-size: 12px
+    font-weight: 200;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 40px;
 }
+
 
 body#about .gallery {
     margin-top: 50px;
