@@ -49,19 +49,16 @@ body#about .description dl dd {
     font-size: 14px;
 }
 
-body#about .description .text table tr td {
-    font-size: 12px
+body#about .description .table {
     font-weight: 200;
     padding-top: 20px;
     padding-bottom: 10px;
-    padding-left: 0px;
     padding-right: 40px;
 }
 
-
-body#about .gallery {
-    margin-top: 50px;
-    margin-bottom: 100px;
+body#about .description tr td {
+    font-size: 14px;
+    line-height: 2.4;
 }
 
 body#about .global-footer {
