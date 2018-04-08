@@ -41,6 +41,13 @@ body#project .description dl dd {
   font-size: 14px;
 }
 
+
+body#project .description dl dd a {
+  color: #1573dd;
+  line-height: 3;
+  font-size: 16px;
+}
+
 body#project .gallery {
   margin-top: 50px;
   margin-bottom: 100px;
