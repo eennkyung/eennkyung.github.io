@@ -1,0 +1,115 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, menu, nav, section {
+  display: block;
+}
+
+body {
+  padding-top: 50px;
+  line-height: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1158px;
+}
+
+.global-navbar {
+  top: 0;
+  padding-top: 50px;
+  width: 100%;
+  position: fixed;
+  background-color: transparent;
+  z-index: 3;
+}
+
+.global-navbar h1 {
+  font-weight: 200;
+  font-size:16px;
+  color: #636363;
+  letter-spacing: 3px;
+  float: left;
+  text-transform: uppercase;
+}
+
+.global-navbar .navbar-right {
+  font-weight: 200;
+  font-size:14px;
+  color: #636363;
+  letter-spacing: 5px;
+  float: right;
+  text-transform: uppercase;
+  width: 50%;
+}
+
+.global-navbar .navbar-right a {
+  padding-right: 33px;
+}
+
+.global-navbar .navbar-right a:hover {
+  color: #oe38b1;
+}
+
+.global-footer {
+  padding-top: 75px;
+  padding-bottom: 120px;
+  background-color: #DDD4C8;
+  text-align: center;
+}
+
+.global-footer i {
+  color: #ffffff;
+  font-size: 40px;
+  padding: 20px;
+}
+
