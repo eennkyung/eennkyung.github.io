@@ -7,7 +7,7 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
+article, aside, canvas, details, embed,
 figure, figcaption, footer, header,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
@@ -20,7 +20,7 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, menu, nav, section {
   display: block;
 }
@@ -61,7 +61,11 @@ a {
 
 .container {
   margin: 0 auto;
-  max-width: 1158px;
+  max-width: 1280px;
+}
+
+.container-2 {
+  margin: 0 auto;
 }
 
 .global-navbar {
@@ -112,4 +116,3 @@ a {
   font-size: 40px;
   padding: 20px;
 }
-
