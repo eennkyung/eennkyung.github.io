@@ -1,0 +1,100 @@
+@import 'reset_new.css';
+
+body#project .container_2 {
+    background-color: #0057FF;
+}
+
+body#project {
+  padding-top: 157px;
+}
+
+body#project .description {
+  padding-top: 10px;
+}
+body#project .description .summary {
+  width: 50%;
+  float: left;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+body#project .description .text {
+  width: 50%;
+  float: right;
+  font-weight: 200;
+}
+
+body#project .description ul li {
+  color: #B4B4B4;
+  padding-bottom: 25px;
+}
+
+body#project .description ul li strong {
+  color: #6B6C6E;
+}
+
+body#project .description dl dt {
+  color: #636363;
+  padding-bottom: 30px;
+}
+
+body#project .description dl dd {
+  color: #636363;
+  line-height: 1.8;
+  font-size: 14px;
+}
+
+
+body#project .description dl dd a {
+  color: #1573dd;
+  line-height: 3;
+  font-size: 16px;
+}
+
+body#project .gallery {
+  margin-top: 50px;
+}
+
+body#project .gallery img {
+  width: 100%;
+  margin-bottom: 14px;
+}
+
+body#project .gallery iframe {
+  display: block;
+  margin: 0 auto;
+  padding: 200px;
+}
+
+body#project .container_2 .paragraph {
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1108px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+body#project .gallery h1 {
+  color: #000000;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 43px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body#project .paragraph p {
+  color: #000000;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 300;
+  line-height: 1.7;
+  font-size: 20px;
+  max-width: 760px;
+}
